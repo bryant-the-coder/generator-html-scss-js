@@ -1,12 +1,12 @@
 {
   "name": "generator-html-scss-js",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "This is for anyone who wanna use this for web development",
   "homepage": "",
   "author": {
     "name": "Bryant Foo",
     "email": "bryantfoo99@gmail.com",
-    "url": ""
+    "url": "https://github.com/bryant-the-coder/generator-html-scss-js"
   },
   "files": [
     "generators"
