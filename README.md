@@ -1,4 +1,4 @@
-# generator-html-scss-js [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-html-scss-js 
 > This is for anyone who wanna use this for web development
 
 ## Installation
@@ -16,12 +16,10 @@ Then generate your new project:
 yo html-scss-js
 ```
 
-## Getting To Know Yeoman
-
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+## Friendly reminder
+ - Please update the package every month. Run `npm update generator-html-scss-js -g`
+ - If you encounter any issue, please file an issue at the repo :)
+ - Pull request is always welcome :D
 
 ## License
 
