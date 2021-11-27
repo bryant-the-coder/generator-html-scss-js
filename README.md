@@ -17,17 +17,8 @@ Then generate your new project:
 yo html-scss-js
 ```
 
-## Friendly Reminder
-
-- Please update the package every month. Run `npm update generator-html-scss-js -g`
-- If you encounter any issue, please file an issue at the repo :)
-- Pull request is always welcome :D
-
-## License
-
-Apache-2.0 © [Bryant Foo]()
-
-```
+## Folder structure
+``` bash
 generator-html-scss-js
 ├─ .editorconfig
 ├─ .eslintignore
@@ -57,4 +48,15 @@ generator-html-scss-js
 ├─ README.md
 └─ __tests__
    └─ app.js
+
 ```
+
+## Friendly Reminder
+
+- Please update the package every month. Run `npm update generator-html-scss-js -g`
+- If you encounter any issue, please file an issue at the repo :)
+- Pull request is always welcome :D
+
+## License
+
+Apache-2.0 © [Bryant Foo]()
