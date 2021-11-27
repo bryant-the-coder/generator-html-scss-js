@@ -25,7 +25,7 @@
     "husky": "^7.0.4",
     "jest": "^27.3.1",
     "lint-staged": "^12.1.2",
-    "prettier": "^2.4.1",
+    "prettier": "^2.5.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^6.2.0"
   },
@@ -33,7 +33,7 @@
     "npm": ">= 8.1.2"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "yeoman-generator": "^5.4.2",
     "yosay": "^2.0.2"
   },
