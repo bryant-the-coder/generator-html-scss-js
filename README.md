@@ -1,4 +1,5 @@
-# generator-html-scss-js 
+# generator-html-scss-js
+
 > This is for anyone who wanna use this for web development
 
 ## Installation
@@ -16,21 +17,44 @@ Then generate your new project:
 yo html-scss-js
 ```
 
-## Friendly reminder
- - Please update the package every month. Run `npm update generator-html-scss-js -g`
- - If you encounter any issue, please file an issue at the repo :)
- - Pull request is always welcome :D
+## Friendly Reminder
+
+- Please update the package every month. Run `npm update generator-html-scss-js -g`
+- If you encounter any issue, please file an issue at the repo :)
+- Pull request is always welcome :D
 
 ## License
 
 Apache-2.0 © [Bryant Foo]()
 
-
-[npm-image]: https://badge.fury.io/js/generator-html-scss-js.svg
-[npm-url]: https://npmjs.org/package/generator-html-scss-js
-[travis-image]: https://travis-ci.com/bryantTheCoder/generator-html-scss-js.svg?branch=master
-[travis-url]: https://travis-ci.com/bryantTheCoder/generator-html-scss-js
-[daviddm-image]: https://david-dm.org/bryantTheCoder/generator-html-scss-js.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/bryantTheCoder/generator-html-scss-js
-[coveralls-image]: https://coveralls.io/repos/bryantTheCoder/generator-html-scss-js/badge.svg
-[coveralls-url]: https://coveralls.io/r/bryantTheCoder/generator-html-scss-js
+```
+generator-html-scss-js
+├─ .editorconfig
+├─ .eslintignore
+├─ .git
+├─ .gitattributes
+├─ .gitignore
+├─ .travis.yml
+├─ generators
+│  └─ app
+│     ├─ index.js                   Main process happend
+│     └─ templates
+│        ├─ .gitignore
+│        ├─ app
+│        │  ├─ js
+│        │  │  └─ script.js
+│        │  └─ scss
+│        │     ├─ style.scss
+│        │     └─ _variables.scss
+│        ├─ gulpfile.js             Compile scss-css, copy files to their own dir
+│        ├─ index.html
+│        ├─ package-lock.json
+│        ├─ package.json
+│        └─ _gitignore
+├─ LICENSE
+├─ package-lock.json
+├─ package.json
+├─ README.md
+└─ __tests__
+   └─ app.js
+```
