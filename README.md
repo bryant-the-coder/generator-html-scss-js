@@ -3,6 +3,9 @@
 - This is for anyone who wanna use this for web development
 - This package includes languages such as `scss`, `js` and `html`
 
+## **WARNING**
+There is 1 annoying bug which is bugging me. The `index.html` in the line where it loads css that section. It is suppose to be `dist/css/style.css` but when you open the html file. It shows `scss/style.css`. Please change this line.
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-html-scss-js using [npm](https://www.npmjs.com/) (I assume you have pre-installed [node.js](https://nodejs.org/)).
