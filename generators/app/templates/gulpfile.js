@@ -56,13 +56,14 @@ function watchTask() {
 
 // Default Gulp Task
 exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-exports.default = function() {
-  // The task won't be run until 500ms have elapsed since the first change
+exports.default = function () {
+  // Prevent any delay in your browser and your device
+  // The browser will auto refresh 2s after you save your file
   watch(
     "app/scss/**/*.scss",
     "app/js/**/*.js",
     "*.html",
-    { delay: 1000 },
+    { delay: 2000 },
     function(cb) {
       // body omitted
       cb();
