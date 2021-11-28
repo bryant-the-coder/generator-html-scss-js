@@ -11,6 +11,8 @@ First, install [Yeoman](http://yeoman.io) and generator-html-scss-js using [npm]
 npm install -g yo
 npm install -g generator-html-scss-js
 ```
+> Install `yo` a time only
+
 
 Then generate a new project in your respective directory:
 
