@@ -1,80 +1,29 @@
 {
-  "name": "generator-html-scss-js",
-  "version": "3.2.5",
-  "description": "This is for anyone who wanna use this for web development",
-  "homepage": "",
-  "author": {
-    "name": "Bryant Foo",
-    "email": "bryantfoo99@gmail.com",
-    "url": "https://github.com/bryant-the-coder/generator-html-scss-js"
-  },
-  "files": [
-    "generators"
-  ],
-  "main": "generators/index.js",
-  "keywords": [
-    "",
-    "yeoman-generator"
-  ],
-  "devDependencies": {
-    "coveralls": "^3.1.1",
-    "eslint": "^8.3.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-xo": "^0.39.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
-    "jest": "^27.3.1",
-    "lint-staged": "^12.1.2",
-    "prettier": "^2.5.0",
-    "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^6.2.0"
-  },
-  "engines": {
-    "npm": ">= 8.1.2"
-  },
-  "dependencies": {
-    "chalk": "^5.0.0",
-    "yeoman-generator": "^5.4.2",
-    "yosay": "^2.0.2"
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
-    "env": {
-      "jest": true,
-      "node": true
-    },
-    "rules": {
-      "prettier/prettier": "error"
-    },
-    "plugins": [
-      "prettier"
-    ]
-  },
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
   "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/bryant-the-coder/generator-html-scss-js.git",
-  "license": "Apache-2.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "autoprefixer": "^10.3.7",
+    "browser-sync": "^2.27.5",
+    "browserlist": "^1.0.1",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.3.9",
+    "postcss-cli": "^9.0.1",
+    "sass": "^1.42.1"
+  }
 }
