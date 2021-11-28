@@ -14,7 +14,7 @@ function scssTask() {
   return src("app/scss/**/*scss", { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
-    .pipe(dest("dist/css", { sourcemaps: "." }));
+    .pipe(dest("main/css", { sourcemaps: "." }));
 }
 
 // JavaScript Task
@@ -22,7 +22,7 @@ function jsTask() {
   return src("app/js/**/*.js", { sourcemaps: true })
     .pipe(babel({ presets: ["@babel/preset-env"] }))
     .pipe(terser())
-    .pipe(dest("dist/js", { sourcemaps: "." }));
+    .pipe(dest("main/js", { sourcemaps: "." }));
 }
 
 // Browsersync
