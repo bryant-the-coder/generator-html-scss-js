@@ -14,7 +14,7 @@ function scssTask() {
   return src("app/scss/**/*scss", { sourcemaps: true })
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
-    .pipe(dest("main/css", { sourcemaps: "." }));
+    .pipe(dest("dist/css", { sourcemaps: "." }));
 }
 
 // JavaScript Task
@@ -22,21 +22,21 @@ function jsTask() {
   return src("app/js/**/*.js", { sourcemaps: true })
     .pipe(babel({ presets: ["@babel/preset-env"] }))
     .pipe(terser())
-    .pipe(dest("main/js", { sourcemaps: "." }));
+    .pipe(dest("dist/js", { sourcemaps: "." }));
 }
 
 // Browsersync
 function browserSyncServe(cb) {
   browsersync.init({
     server: {
-      baseDir: "."
+      baseDir: ".",
     },
     notify: {
       styles: {
         top: "auto",
-        bottom: "0"
-      }
-    }
+        bottom: "0",
+      },
+    },
   });
   cb();
 }
@@ -64,10 +64,9 @@ exports.default = function () {
     "app/js/**/*.js",
     "*.html",
     { delay: 2000 },
-    function(cb) {
+    function (cb) {
       // body omitted
       cb();
     }
   );
 };
-
