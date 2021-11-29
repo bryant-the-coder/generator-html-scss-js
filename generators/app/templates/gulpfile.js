@@ -55,7 +55,6 @@ function watchTask() {
 }
 
 // Default Gulp Task
-exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
 exports.default = function () {
   // Prevent any delay in your browser and your device
   // The browser will auto refresh 2s after you save your file
@@ -70,3 +69,6 @@ exports.default = function () {
     }
   );
 };
+
+// Exports modules
+exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
