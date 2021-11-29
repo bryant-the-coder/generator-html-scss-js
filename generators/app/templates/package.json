@@ -1,13 +1,12 @@
 {
-  "name": "testing",
-  "version": "2.0.0",
-  "description": "",
+  "name": "generator-html-scss-js",
+  "version": "1.0.0",
+  "description": "This is for people who do web development with html, scss and js",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Bryant Foo",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
