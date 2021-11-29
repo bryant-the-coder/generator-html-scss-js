@@ -1,12 +1,12 @@
 {
   "name": "testing",
-  "version": "2.0.1",
-  "description": "This is for people who do web development with html, scss and js",
+  "version": "1.0.0",
+  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Bryant Foo",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
