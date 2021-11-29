@@ -1,6 +1,6 @@
 {
   "name": "generator-html-scss-js",
-  "version": "1.0.0",
+  "version": "4.4.2",
   "description": "This is for people who do web development with html, scss and js",
   "main": "gulpfile.js",
   "scripts": {
