@@ -3,9 +3,6 @@
 - This is for anyone who wanna use this for web development
 - This package includes languages such as `scss`, `js` and `html`
 
-## **WARNING**
-There is 1 annoying bug which is bugging me. The `index.html` in the line where it loads css that section. It is suppose to be `dist/css/style.css` but when you open the html file. It shows `scss/style.css`. Please change this line.
-
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-html-scss-js using [npm](https://www.npmjs.com/) (I assume you have pre-installed [node.js](https://nodejs.org/)).
@@ -14,8 +11,8 @@ First, install [Yeoman](http://yeoman.io) and generator-html-scss-js using [npm]
 npm install -g yo
 npm install -g generator-html-scss-js
 ```
-> Install `yo` a time only
 
+> Install `yo` a time only
 
 Then generate a new project in your respective directory:
 
@@ -59,6 +56,7 @@ generator-html-scss-js
 
 ## Friendly Reminder
 
+- If you want to update to a newer version, please check the github repo to check whether are there any problems.
 - Please update the package every month. Run `npm update generator-html-scss-js -g`
 - If you encounter any issue, please file an issue at the repo :)
 - Pull request is always welcome :D
