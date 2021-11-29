@@ -22,6 +22,10 @@ module.exports = class extends Generator {
       this.templatePath("package.json"),
       this.destinationPath("package.json")
     );
+    this.fs.copy(
+      this.templatePath("package-lock.json"),
+      this.destinationPath("package-lock.json")
+    );
     this.fs.copy(this.templatePath("app"), this.destinationPath("app"));
   }
 
